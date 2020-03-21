@@ -1,0 +1,22 @@
+kafka:
+    one:
+      bootstrap-servers: localhost:50001
+      consumer:
+        group-id: group_t1
+        enable-auto-commit: true
+    two:
+      bootstrap-servers: localhost:50002
+      consumer:
+        group-id: group_t2
+        enable-auto-commit: true
+
+    three:
+      bootstrap-servers: localhost:50003
+      consumer:
+        group-id: group_t3
+        enable-auto-commit: true
+logging:
+  level:
+    org.apache.kafka: warn
+    org.springframework: warn
+    cn.hohov: debug

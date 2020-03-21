@@ -1,0 +1,13 @@
+# send to topic-one
+GET http://localhost:8080/kafka/one
+
+###
+
+# send to topic-two
+GET http://localhost:8080/kafka/two
+
+###
+
+# send to topic-three
+GET http://localhost:8080/kafka/three
+###
